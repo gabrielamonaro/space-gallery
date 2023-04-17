@@ -1,0 +1,45 @@
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 17%;
+    margin-top: 1rem;
+    font-family: "GandhiSansRegular";
+    margin-bottom: 2rem;
+    flex-direction: column;
+  }
+ 
+  .teste{
+   border: 1px solid red;
+   width: 300px;
+   height: 500px;
+  }
+  
+  .galeria h2 {
+    color: #7b78e5;
+    font-size: 24px;
+ }
+  .galeria ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+ }
+  .galeria .lista li {
+    background-color: #041833;
+    border-radius: 20px;
+    height: 280px;
+    width: 285px;
+    margin-right: 1rem;
+    margin-bottom: 1.35rem;
+    cursor: pointer;
+ }
+
+ .lista{
+   width: 75%;
+ }
+
+ 
+
+  

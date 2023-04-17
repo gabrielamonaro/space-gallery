@@ -1,0 +1,66 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 25%;
+}
+
+.container-image{
+    width: 100%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text h4, .text span{
+    font-size: 16px;
+}
+
+.icons img{
+    width: 20px;
+}
+
+.card div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    width: 100%;
+ }
+ .card div p {
+    margin: 0;
+    margin-top: 0.5rem;
+    color: #9d9d9d;
+ }
+ .card li div span {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+  .container-image img {
+    cursor: pointer;
+    width: 100%;
+ }
+  .container-image {
+    height: 75%;
+    width: 100%;
+ }
+ .container-desc {
+    margin: 0;
+    padding: 0 16px;
+    font-size: 1.25rem;
+    color: #d9d9d9;
+    font-family: "GandhiSansBold";
+ }
+
+ .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.025);
+    transition: 0.18s;
+ }

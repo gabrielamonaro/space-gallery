@@ -1,7 +1,8 @@
 import Header from "../../Components/Header";
 import Menu from "../../Components/Menu";
-import banner from '../../assets/images/Foto destaque.png'
+import banner from '../../assets/images/foto-destaque.png'
 import './style.css'
+import Galeria from "../../Components/Galeria";
 
 export default function Home()
 {
@@ -19,6 +20,8 @@ export default function Home()
                     <h1> A galeria mais completa de fotos do espaço!</h1>
             </section>
         </main>
+
+        <Galeria></Galeria>
     </>
     )
 }

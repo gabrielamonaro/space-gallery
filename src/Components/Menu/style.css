@@ -22,14 +22,8 @@
     font-weight: 700;
     color: #7b78e5;
 }
-
-.menu li a{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200 ;
-}
-
 .menu li:first-child img {
-    background-image: url('../../assets/icones/menu-selected.png');
+    background-image: url('../../assets/icons/menu-selected.png');
     background-size: contain;
 }
 
