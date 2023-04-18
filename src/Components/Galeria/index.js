@@ -1,7 +1,5 @@
 import './style.css'
-import photos from'../../assets/photos.json'
-// import image1 from '/public/assets/images/foto-1.png'
-// import image1 from 'src/assets/images/foto-destaque.png'
+import photos from'assets/photos.json'
 import React from 'react'
 import Tags from '../Tags'
 import Card from '../Card'

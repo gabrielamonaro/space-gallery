@@ -1,9 +1,22 @@
-main {
+main{
+    display: flex;
+    flex-direction: column;
+}
+.first-section {
     margin: 0 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 2rem;
+}
+
+.second-section{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.populares{
+    margin: 20px;
 }
 .principal {
     display: flex;

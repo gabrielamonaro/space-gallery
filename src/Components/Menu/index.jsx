@@ -1,9 +1,9 @@
 import React from 'react'
-import home from '../../assets/icons/home.png'
-import maisVistas from '../../assets/icons/eye.png'
-import maisCurtidas from '../../assets/icons/like.png'
-import surpreendaMe from '../../assets/icons/idea.png'
-import novas from '../../assets/icons/new.png'
+import home from 'assets/icons/home.png'
+import maisVistas from 'assets/icons/eye.png'
+import maisCurtidas from 'assets/icons/like.png'
+import surpreendaMe from 'assets/icons/idea.png'
+import novas from 'assets/icons/new.png'
 import './style.css'
 
 export default function Menu() {

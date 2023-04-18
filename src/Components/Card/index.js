@@ -13,8 +13,8 @@ export default function Card(props) {
         </div>
         <div className='container-desc'>
           <div className='text'>
-          <h4>{props.title}</h4>
-          <span>{props.desc}</span>
+            <h4>{props.title}</h4>
+            <span>{props.desc}</span>
           </div>
          
 

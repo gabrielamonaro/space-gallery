@@ -1,38 +1,49 @@
 .card{
     display: flex;
     flex-direction: column;
-    margin: 5px;
-    width: 25%;
-}
-
-.container-image{
-    width: 100%;
+    margin: 10px;
+    width: 30%;
+    background-color: #00001E;
+    border-radius: 20px;
+    padding: 0;
 }
 
 .text{
     display: flex;
     flex-direction: column;
+    padding: 5px 0 30px 10px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 70%;
+    height: 80px;
+    margin-right: 20px;
 }
 
 .text h4, .text span{
     font-size: 16px;
+    text-align: left;
 }
+
+.card h4{
+    font-weight: 700;
+}
+
 
 .icons img{
     width: 20px;
+    height: 20px;
+    margin: 5px 5px 10px 5px;
+}
+.icons{
+    display: flex;
+    align-items: flex-end;
 }
 
-.card div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-    box-sizing: border-box;
-    width: 100%;
- }
+
  .card div p {
     margin: 0;
-    margin-top: 0.5rem;
+    margin-top: 5px;
     color: #9d9d9d;
  }
  .card li div span {
@@ -44,6 +55,7 @@
   .container-image img {
     cursor: pointer;
     width: 100%;
+    box-sizing: border-box;
  }
   .container-image {
     height: 75%;
@@ -51,10 +63,9 @@
  }
  .container-desc {
     margin: 0;
-    padding: 0 16px;
-    font-size: 1.25rem;
     color: #d9d9d9;
-    font-family: "GandhiSansBold";
+    font-family: "GandhiSansRegular";
+    display: flex;
  }
 
  .card:hover {
